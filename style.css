@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background: rgb(170,170,170);
+    background: linear-gradient(0deg, rgba(170,170,170,1) 0%, rgb(9, 23, 71) 100%);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+.container {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 200px;
+    width: 70%;
+}
+.head {
+    width: 70%;
+    margin: 0 auto;
+    font-family: "Poppins", sans-serif;
+    font-weight: lighter;
+    font-style: normal;
+    color: aliceblue;
+}
+.port {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+hr {
+    width: 250px;
+    border: 2px solid rgb(17, 231, 231);
+}
+.hiddenn {
+    margin-top: 6%;
+    font-size: 66px;
+    opacity: 0;
+}
+.links {
+    margin-top: 13%;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+.links a {
+    text-decoration: none;
+    color: aliceblue;
+}
+.services {
+    margin-top: 17%;
+    color: aliceblue;
+    font-family: "Poppins", sans-serif;
+}
+.services h1 {
+    font-size: 40px;
+    font-family: "Noto Sans", sans-serif;
+    margin-bottom: 3%;
+}
+.services p {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.boxes h1 {
+    font-size: 40px;
+    color: aliceblue;
+    font-family: "Noto Sans", sans-serif;
+    margin-top: 13%;
+}
+
+.projects img {
+    height: 100px;
+    
+}
+.projects {
+    list-style: none;
+    display: flex;
+    color: aliceblue;
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.projects h4 {
+    height: 100px;
+    
+}
+.about-me h1 {
+    font-size: 40px;
+    color: aliceblue;
+    font-family: "Noto Sans", sans-serif;
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+.about-me h3 {
+    font-size: 24px;
+    margin-top: 1%;
+    font-weight: 400;
+    font-style: normal;
+}
+.image img {
+    width: 150px;
+    border-radius: 100%;
+
+}
+.image {
+    list-style: none;
+    color: aliceblue;
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+}
+.image h1 {
+    font-size: 25px;
+    height:35px;
+    margin: 0;
+}
+.image h3 {
+    font-size: 15px;
+}
+.description {
+    width: 80%;
+    margin: 0 auto;
+    color: aliceblue;
+    font-family: "Poppins", sans-serif;
+    /* text-align: center; */
+    margin-top: 3%;
+    text-align: justify ;
+    text-align-last: center;
+}
